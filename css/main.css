@@ -1,6 +1,5 @@
 nav {
-	left: 50px;
-	background-color: powderblue;
+	margin-left: 50px;
 }
 
 h1, h5 {
@@ -8,7 +7,8 @@ h1, h5 {
 	font-family: comic ms, sans-serif; 
 }
 
-a {
+.navbar {
+	padding: 20%;
 	color: black;
 	text-decoration: none;
 }
