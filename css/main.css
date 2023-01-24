@@ -1,5 +1,6 @@
-nav {
-	margin-right: 50px;
+.navbar {
+	display: flex;
+	justify-content: space-between;
 }
 
 h1, h5 {
@@ -7,10 +8,10 @@ h1, h5 {
 	font-family: comic ms, sans-serif; 
 }
 
-.navbar {
-	padding: 50px;
+.navbar a{
 	color: black;
 	text-decoration: none;
+	font-family: Georgia;
 }
 
 .logo {
