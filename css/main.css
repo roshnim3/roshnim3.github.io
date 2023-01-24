@@ -1,11 +1,16 @@
+@font-face {
+  font-family: 'comic sans ms';
+  src: url('path/to/comic-sans-ms.ttf') format('truetype');
+}
+
 .navbar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 
 h1, h5 {
 	color: navy;
-	font-family: comic ms, sans-serif; 
+	font-family: comic sans ms, sans-serif; 
 }
 
 .navbar a{
