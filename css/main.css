@@ -1,3 +1,7 @@
+nav {
+	left: 50px;
+}
+
 h1, h5 {
 	color: navy;
 	font-family: comic ms, sans-serif; 
@@ -9,6 +13,9 @@ a {
 }
 
 #logo {
+	background-color: powderblue;
 	height: 20px;
 	width: 20px;
 }
+
+
