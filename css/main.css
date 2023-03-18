@@ -36,10 +36,18 @@ nav {
         width: 20px;
 }
 
-
+.Welcome {
+	box-sizing: border-box;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10%;
+	background-image: url('https://media.istockphoto.com/id/493476120/vector/abstract-blue-watercolor-background.jpg?s=612x612&w=0&k=20&c=s7ClCSwrGl07JjolpP-0dfNdmHvN16qHr5xPlntCMnQ=');
+	background-size: cover;
+}
 h1, h5 {
-	color: navy;
-	font-family: comic sans ms, sans-serif; 
+	color: white;
+	font-family: Georgia; 
 }
 
 
