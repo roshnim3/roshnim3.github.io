@@ -72,7 +72,7 @@ nav {
 }
 
 .fox {
-  width: 50px;
+  width: 75px;
   position: relative;
   animation: move-forwards 10s linear infinite;
 }
