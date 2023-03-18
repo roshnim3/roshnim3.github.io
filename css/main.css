@@ -11,27 +11,31 @@ nav {
 }
 
 .nav-list {
+	list-style: none;
+	display: flex;
+}
+.nav-item {
 	color: black;
 	text-decoration: none;
 	font-family: Georgia;
 	padding 20px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.nav-item:hover {
+	color: navy;
 }
 
 #main-logo {
-        height: 50px;
+        height: 40px;
 }
 .nav-logo {
         height: 20px;
         width: 20px;
 }
 
-.nav-item {
-	flex: 1 1 auto;
-}
-
-.nav-item:hover a {
-	text: navy;
-}
 
 h1, h5 {
 	color: navy;
