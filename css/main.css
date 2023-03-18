@@ -3,20 +3,22 @@
   src: url('path/to/comic-sans-ms.ttf') format('truetype');
 }
 
+
+// navigation bar
 .navbar {
 	display: flex;
-	/*justify-content: flex-end;*/
 }
-
+.nav-list {
+	justify-content: flex-end;
+}
+.navbar a{
+        color: black;
+        text-decoration: none;
+ 	font-family: Georgia;
+}
 h1, h5 {
 	color: navy;
 	font-family: comic sans ms, sans-serif; 
-}
-
-.navbar a{
-	color: black;
-	text-decoration: none;
-	font-family: Georgia;
 }
 
 .logo {
