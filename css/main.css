@@ -56,7 +56,7 @@ nav {
 
 
 }
-.welcome h5{
+.welcome h3{
   border-left: 0.22em solid;
   padding-left: 10px;
 }
@@ -70,3 +70,17 @@ nav {
   color: #11559E;
 }
 
+.fox {
+  width: 100px;
+  position: relative;
+  animation: move-forwards 10s linear infinite;
+}
+
+@keyframes move-forwards {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 100%;
+  }
+}
