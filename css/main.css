@@ -5,24 +5,32 @@
 
 
 // navigation bar
-.navbar {
+.nav-bar {
 	display: flex;
 }
 .nav-list {
 	justify-content: flex-end;
 }
-.navbar a{
+.nav-bar a{
         color: black;
         text-decoration: none;
- 	font-family: Georgia;
+ 	font-family: Verdana;
 }
+
+#nav-logo {
+	flex: 2 2 auto;
+}
+#nav-about, #nav-projects, #nav-resume, #nav-linkedin {
+	flex: 1 1 auto;
+}
+
 
 h1, h5 {
 	color: navy;
 	font-family: comic sans ms, sans-serif; 
 }
 
-.main-logo {
+#main-logo {
 	height 30px;
 	width: 30px;
 }
