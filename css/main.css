@@ -15,7 +15,7 @@ nav {
 	display: flex;
 }
 .nav-item {
-	color: black;
+	color: #0D2C63;
 	text-decoration: none;
 	font-family: Georgia;
 	padding: 20px;
@@ -36,20 +36,35 @@ nav {
         width: 20px;
 }
 
-.Welcome {
+.welcome {
 	box-sizing: border-box;
 	width: 90%;
+	height: 80%;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 10%;
 	background-image: url('https://media.istockphoto.com/id/493476120/vector/abstract-blue-watercolor-background.jpg?s=612x612&w=0&k=20&c=s7ClCSwrGl07JjolpP-0dfNdmHvN16qHr5xPlntCMnQ=');
 	background-size: cover;
 }
-h1, h5 {
-	color: white;
-	font-family: Georgia; 
+
+.welcome h1{
+  border-left: 0.1em solid white;
+  padding-left: 10px;
+  width: 80%;
+
+
+}
+.welcome h5{
+  border-left: 0.22em solid;
+  padding-left: 10px;
 }
 
-
-
+.welcome a {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: white;
+  text-decoration: none;
+  color: #11559E;
+}
 
