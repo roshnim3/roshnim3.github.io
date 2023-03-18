@@ -2,33 +2,28 @@
   font-family: 'comic sans ms';
   src: url('path/to/comic-sans-ms.ttf') format('truetype');
 }
+/* navigation bar */
+nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-list {
+	color: black;
+	text-decoration: none;
+	font-family: Georgia;
+}
 
 #main-logo {
-        height 30px;
-        width: 30px;
+        height: 20px;
 }
 .logo {
         height: 20px;
         width: 20px;
 }
-// navigation bar
-.nav-bar {
-	display: flex;
-	align-items: center;
-}
-.nav-list {
-	justify-content: flex-end;
-}
-.nav-bar a{
-        color: black;
-        text-decoration: none;
- 	font-family: Georgia;
-}
 
-#nav-logo {
-	justify-content: flex-start;
-	flex: 2 2 auto;
-}
 #nav-about, #nav-projects, #nav-resume, #nav-linkedin {
 	flex: 1 1 auto;
 }
@@ -39,13 +34,6 @@ h1, h5 {
 	font-family: comic sans ms, sans-serif; 
 }
 
-#main-logo {
-	height: 30px;
-	width: 30px;
-}
-.logo {
-	height: 20px;
-	width: 20px;
-}
+
 
 
