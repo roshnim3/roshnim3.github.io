@@ -6,7 +6,8 @@
 nav {
 	margin-left: 5%;
 	margin-right: 5%;
-	width: 100%;
+	width: 90%;
+	height: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -80,7 +81,7 @@ nav {
 
 @keyframes move-forwards {
   0% {
-    left: -100px;
+    left: -5%;
   }
   100% {
     left: 100%;
