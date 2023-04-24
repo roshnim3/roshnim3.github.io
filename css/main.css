@@ -1,3 +1,4 @@
+/* adds a new font family to the website*/
 @font-face {
   font-family: 'comic sans ms';
   src: url('path/to/comic-sans-ms.ttf') format('truetype');
@@ -12,11 +13,12 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 }
-
+/* allows navigation bar to fit the size of screen*/
 .nav-list {
 	list-style: none;
 	display: flex;
 }
+/* controles pages on nav bar*/
 .nav-item {
 	color: #0D2C63;
 	text-decoration: none;
@@ -26,19 +28,20 @@ nav {
 	align-items: center;
 	font-size: 16px;
 }
-
+/* when you are hovering over the nav bar links it turns it blue*/
 .nav-item:hover {
 	color: navy;
 }
-
+/*this is the RM logo on the top left corner -> this determines the size*/
 #main-logo {
         height: 40px;
 }
+/* this refers to the linkedin logo size */
 .nav-logo {
         height: 20px;
         width: 20px;
 }
-
+/* this is the blue watercolor welcome box */
 .welcome {
 	box-sizing: border-box;
 	width: 90%;
@@ -51,19 +54,20 @@ nav {
 	background-size: cover;
 }
 
+/* this is that white bar on the side of my name */
 .welcome h1{
   border-left: 0.1em solid white;
   padding-left: 10px;
   size: 104%;
   width: 80%;
 
-
+/* this is that white bar on the side of the description */
 }
 .welcome h3{
-  border-left: 0.22em solid;
+  border-left: 0.15em solid;
   padding-left: 10px;
 }
-
+/* this is the button that clicks to the about page */
 .welcome a {
   display: inline-block;
   border-radius: 2px;
@@ -72,16 +76,16 @@ nav {
   text-decoration: none;
   color: #11559E;
 }
-
+/* this is the blue dragon gif and it moves the picture across the screen */
 .blue-dragon {
   height: 5%;
   position: relative;
   animation: move-forwards 10s linear infinite;
 }
-
+/* function to make something move */
 @keyframes move-forwards {
   0% {
-    left: -5%;
+    left: -10%;
   }
   100% {
     left: 100%;
