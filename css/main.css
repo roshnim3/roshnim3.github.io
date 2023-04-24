@@ -80,7 +80,7 @@ nav {
 .blue-dragon {
   height: 5%;
   position: relative;
-  animation: move-forwards 10s linear infinite;
+  animation: move-forwards 15s linear infinite;
 }
 /* function to make something move */
 @keyframes move-forwards {
