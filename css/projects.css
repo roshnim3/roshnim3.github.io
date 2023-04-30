@@ -1,0 +1,11 @@
+.project-container {
+    display: flex horizontal;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+.project-card {
+    flex: 1 1 calc(33.33% - 20px);
+    border-radius: 5px;
+}
