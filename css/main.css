@@ -41,45 +41,39 @@ nav {
         height: 20px;
         width: 20px;
 }
-/* this is the blue watercolor welcome box */
+/* this is the welcome box */
 .welcome {
-	box-sizing: border-box;
-	width: 90%;
-	height: 90%;
+	width: 70%;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 10%;
 	color: white;
 	background-image: url('https://media.istockphoto.com/id/493476120/vector/abstract-blue-watercolor-background.jpg?s=612x612&w=0&k=20&c=s7ClCSwrGl07JjolpP-0dfNdmHvN16qHr5xPlntCMnQ=');
 	background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
 }
 
-/* this is that white bar on the side of my name */
-.welcome h1{
-  border-left: 0.1em solid white;
-  padding-left: 10px;
-  size: 104%;
-  width: 80%;
-
-/* this is that white bar on the side of the description */
-}
-.welcome h3{
-  border-left: 0.15em solid;
-  padding-left: 10px;
-}
-/* this is the button that clicks to the about page */
-.welcome a {
+.text{
   display: inline-block;
-  border-radius: 2px;
-  padding: 5px;
-  background-color: white;
-  text-decoration: none;
-  color: #11559E;
+  font-size: 72px;
+  overflow: hidden; /* hide overflow */
+  white-space: nowrap; /* prevent line breaks */
+  letter-spacing: 0.1em; /* increase spacing between letters */
+/* this is that white bar on the side of the description */
+  animation: typing 3s steps(30, end) forwards;
 }
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 /* this is the blue dragon gif and it moves the picture across the screen */
 .blue-dragon {
-  height: 150px;
-  width: 150px;
+  height: 10%;
+  width: 10%;
   position: relative;
   animation: move-forwards 10s linear infinite;
 }

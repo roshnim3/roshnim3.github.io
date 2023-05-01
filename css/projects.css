@@ -1,11 +1,156 @@
-.project-container {
-    display: flex horizontal;
+ /* navigation bar */
+nav {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* allows navigation bar to fit the size of screen*/
+.nav-list {
+	list-style: none;
+	display: flex;
+}
+/* controles pages on nav bar*/
+.nav-item {
+	color: #0D2C63;
+	text-decoration: none;
+	font-family: Georgia;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+/* when you are hovering over the nav bar links it turns it blue*/
+.nav-item:hover {
+	color: navy;
+}
+/*this is the RM logo on the top left corner -> this determines the size*/
+#main-logo {
+        height: 40px;
+}
+/* this refers to the linkedin logo size */
+.nav-logo {
+        height: 20px;
+        width: 20px;
+}
+
+.welcome {
+	box-sizing: border-box;
+    font-family: Georgia;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+    padding: 2%;
+    display: flex;
+	background-image: url('https://media.istockphoto.com/id/493476120/vector/abstract-blue-watercolor-background.jpg?s=612x612&w=0&k=20&c=s7ClCSwrGl07JjolpP-0dfNdmHvN16qHr5xPlntCMnQ=');
+	background-size: cover;
+    background-color: #0D2C63;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/* this is that white bar on the side of my name */
+.welcome h1{
+    text-align: center;
+    padding-left: 20px;
+    size: 104%;
+    width: 80%;
+
+/* this is that white bar on the side of the description */
+}
+
+
+
+
+ .projects-container {
+    display: flex;
     flex-wrap: wrap;
+    width: 95%;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 20px;
-}
+    padding-top: 5%; /* padding between project cards and welcome header */
+    font-family: Georgia;
+  }
+
 .project-card {
-    flex: 1 1 calc(33.33% - 20px);
-    border-radius: 5px;
+    flex: 1 1 calc(25%);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgb(43, 75, 122);
+    padding-top: 2%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
 }
+
+.project-card:hover {
+    background-color:rgb(33, 64, 111);
+}
+  
+.project-card img {
+    height: 30%;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+.project-info {
+    padding: 7.5%;
+    text-align: left;
+    color: white;
+    
+}
+.project-info h3 {
+    margin: 0;
+    font-size: 24px;
+}
+  
+.project-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+  
+.project-info a {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+  /* Expanded project page */
+.project-description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.project-description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+  
+/* .project-description h1 {
+    font-size: 32px;
+    margin: 0;
+}
+  
+.project-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+*/
