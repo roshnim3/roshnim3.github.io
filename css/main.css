@@ -60,9 +60,9 @@ nav {
   font-size: 72px;
   overflow: hidden; /* hide overflow */
   white-space: nowrap; /* prevent line breaks */
-  letter-spacing: 0.1em; /* increase spacing between letters */
+  letter-spacing: 0.08gem; /* increase spacing between letters */
 /* this is that white bar on the side of the description */
-  animation: typing 3s steps(30, end) forwards;
+  animation: typing 3s steps(30, end);
 }
 
 @keyframes typing {
