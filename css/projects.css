@@ -80,29 +80,30 @@ nav {
     flex: 1 1 calc(25%);
     margin-left: 2.5%;
     margin-right: 2.5%;
+    margin-bottom: 2.5%;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color:rgb(43, 75, 122);
     padding-top: 2%;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
+    background-color:rgb(33, 64, 111);
 }
 
 .project-card:hover {
-    background-color:rgb(33, 64, 111);
+    background-color:rgb(19, 49, 95);
 }
   
 .project-card img {
-    height: 30%;
+    height: 60%;
     width: 85%;
-    height: auto;
     border-radius: 10px;
 }
 .project-info {
-    padding: 7.5%;
+    padding-left: 7.5%;
+    padding-top: 7.5%;
     text-align: left;
     color: white;
     
@@ -116,7 +117,7 @@ nav {
     margin: 10px 0;
     font-size: 16px;
 }
-  
+ /* 
 .project-info a {
     display: inline-block;
     padding: 10px;
@@ -125,32 +126,12 @@ nav {
     text-decoration: none;
     transition: background-color 0.2s ease-in-out;
 }
-  
-  /* Expanded project page */
-.project-description {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-  
-.project-description img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-  
-/* .project-description h1 {
-    font-size: 32px;
-    margin: 0;
-}
-  
-.project-description p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-*/
+  */
+
+  #hide {
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff;
+
+
+  }
