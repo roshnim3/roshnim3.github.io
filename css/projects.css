@@ -72,7 +72,6 @@ nav {
     width: 95%;
     justify-content: space-between;
     margin: 0 auto;
-    padding-top: 5%; /* padding between project cards and welcome header */
     font-family: Georgia;
   }
 
