@@ -1,88 +1,194 @@
-/* adds a new font family to the website*/
-@font-face {
-  font-family: 'comic sans ms';
-  src: url('path/to/comic-sans-ms.ttf') format('truetype');
-}
-/* navigation bar */
-nav {
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
-	height: 10%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-/* allows navigation bar to fit the size of screen*/
-.nav-list {
-	list-style: none;
-	display: flex;
-}
-/* controles pages on nav bar*/
-.nav-item {
-	color: #0D2C63;
-	text-decoration: none;
-	font-family: Georgia;
-	padding: 20px;
-	display: flex;
-	align-items: center;
-	font-size: 16px;
-}
-/* when you are hovering over the nav bar links it turns it blue*/
-.nav-item:hover {
-	color: navy;
-}
-/*this is the RM logo on the top left corner -> this determines the size*/
-#main-logo {
-        height: 40px;
-}
-/* this refers to the linkedin logo size */
-.nav-logo {
-        height: 20px;
-        width: 20px;
-}
-/* this is the welcome box */
+
+/* WELCOME SECTION */
+
+/* This sets the background of the main section to the blue digital background. */
 .welcome {
-	width: 70%;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding: 10%;
-	color: white;
-	background-image: url('https://media.istockphoto.com/id/493476120/vector/abstract-blue-watercolor-background.jpg?s=612x612&w=0&k=20&c=s7ClCSwrGl07JjolpP-0dfNdmHvN16qHr5xPlntCMnQ=');
-	background-size: cover;
-  background-attachment: fixed;
-  position: relative;
+  background-image: url('../Images/HomePage/home-background.jpeg');
+  background-size: 100% 100%;
+  max-width: 100vw;
+  height: 70vh;
   text-align: center;
 }
 
+
 .text{
   display: inline-block;
+  color: white;
+  padding-top: 5%;
   font-size: 72px;
   overflow: hidden; /* hide overflow */
   white-space: nowrap; /* prevent line breaks */
   letter-spacing: 0.08gem; /* increase spacing between letters */
-/* this is that white bar on the side of the description */
   animation: typing 3s steps(30, end);
 }
 
+
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+from { width: 0 }
+to { width: 100% }
+}
+  
+/* NAVIGATION BAR */
+
+/* Setting the logos (RM and linkedin to the according size) */
+body {
+  font-family: 'Inter', sans-serif;
+}
+.nav-logo {
+  height: 20px;
+}
+#RM-logo {
+  height: 50px;
 }
 
-/* this is the blue dragon gif and it moves the picture across the screen */
-.blue-dragon {
-  height: 10%;
-  width: 10%;
-  position: relative;
-  animation: move-forwards 10s linear infinite;
+/* design elements for navigation bar */
+nav {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-/* function to make something move */
-@keyframes move-forwards {
-  0% {
-    left: -50px;
-  }
-  100% {
-    left: 100%;
-  }
+
+/* allows navigation bar to fit the size of screen*/
+.nav-list {
+  list-style: none;
+  align-items: center;
+  display: flex;
+}
+
+/* controles pages on nav bar*/
+.nav-item  {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 50px;
+  font-size: 16px;
+}
+/* SPACER */
+.spacer {
+  height: 10vh;
+}
+
+/* ABOUT ME SECTION */
+
+.aboutme {
+  display: flex;
+  max-width: 100vw;
+  height: 60vh;
+}
+
+.aboutme-left {
+  width: 50%; /* Left half of the screen */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2%;
+}
+
+.aboutme-headshot {
+  width: auto;
+  max-width: 80%;
+  max-height: 100%;
+  
+}
+
+.aboutme-right {
+  width: 50%; /* Right half of the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-text {
+  margin: 15%;
+  padding: 10%;
+  background-color: #f8f8f8;
+}
+
+.aboutme-text h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+/* EXPERIENCE SECTION */
+.myexperiences {
+  display: flex;
+  max-width: 100vw;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 80vw;
+}
+.timeline-activity {
+  height: 20vh;
+  margin: 2.5%;
+  width: auto;
+}
+.work-experience {
+  background-color: rgb(25, 72, 113);
+  text-align: center;
+  padding: 2.5%;
+  padding-left: 5;
+  padding-right: 2.5%;
+  margin: 2.5%;
+  height: 15vh;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  color: rgb(204, 212, 219);
+}
+.timeline-left {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47.5vw;
+  height: 100vh;
+}
+.timeline-center {
+  background-color: white;
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.timeline-right {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47.5vw;
+  height: 100vh;
+}
+
+.timeline-line {
+  background-color: rgb(124, 151, 175);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 0.5vw;
+  height: 80vh;
+}
+.timeline-dot {
+  height: 2.5vh;
+  width: 2.5vh;
+  align-items: center;
+  background-color: rgb(124, 151, 175);
+  border-radius: 50%;
+}
+.timeline-spacer {
+  height: 25vh;
+}
+
+p {
+  font-size: 11pt;
 }

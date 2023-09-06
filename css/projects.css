@@ -69,20 +69,21 @@ nav {
  .projects-container {
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
+    width: 92%;
     justify-content: space-between;
-    margin: 0 auto;
-    font-family: Georgia;
+    margin:  auto;
+    font-family: Helvetica, sans-serif;
+
   }
 
 .project-card {
     flex: 1 1 calc(25%);
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
-    margin-top: 2.5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-top: 2%;
     text-align: center;
@@ -99,7 +100,7 @@ nav {
 .project-card img {
     height: 60%;
     width: 85%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .project-info {
     padding-left: 7.5%;
