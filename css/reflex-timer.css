@@ -1,0 +1,128 @@
+.welcome {
+    background-image: url('../Images/ProjectsPage/projects-background.png');
+    background-size: 100% 100%;
+    max-width: 100vw;
+    height: 30vh;
+    text-align: center;
+  }
+
+    
+  /* NAVIGATION BAR */
+  
+  /* Setting the logos (RM and linkedin to the according size) */
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  #linkedin-logo {
+    height: 20px;
+  }
+  #RM-logo {
+    height: 50px;
+  }
+  
+  /* design elements for navigation bar */
+  nav {
+    margin-left: 5vh;
+    width: 92.5vw;
+    height: 12.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* allows navigation bar to fit the size of screen*/
+  .nav-list {
+    list-style: none;
+    align-items: center;
+    display: flex;
+  }
+  
+  /* controles pages on nav bar*/
+  .nav-item  {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 5vw;
+    
+  }
+  /* SPACER */
+  .spacer {
+    height: 10vh;
+  }
+
+  /* CONTENT */
+  .mini-spacer {
+    height: 10vh;
+  }
+  .content {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border: 25px solid rgb(124, 151, 175);
+    box-shadow: inset;
+  }
+
+  .blog {
+    display:flex;
+  }
+  .left-content {
+    text-align: center;
+    width: 50%;
+  }
+
+  .left-content p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+  }
+
+  .right-content {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-content-text {
+    margin-top: 5%;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .other-projects {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  
+  .other-projects-previous {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .other-projects-next {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+  /* .other-projects-img {
+    width: 20vh;
+    height: 20vh;
+  } */

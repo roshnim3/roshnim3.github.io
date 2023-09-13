@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Roshni Mathew</title>
+		<link rel="stylesheet" href="css/reflex-timer.css">
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+	</head>
+	<body>
+		<div class="welcome">
+			<nav class="nav-bar">
+				<a href="https://roshnim3.github.io">
+					<img id = "RM-logo" src="Images/NavBar/main-logo.png" alt="Link to Home Page">
+				</a>
+				<ul class="nav-list">
+					<a class = "nav-item"href="https://roshnim3.github.io/index.html">HOME</a>
+					<a class = "nav-item" href="https://roshnim3.github.io/projects.html">PROJECTS</a>
+					<a class = "nav-item" href="https://roshnim3.github.io/resume.pdf">RESUME</a>
+					<a class = "nav-item" href="https://www.linkedin.com/in/roshnimathew04/">
+						<img id="linkedin-logo" src="Images/NavBar/linkedin-logo.png" alt="LinkedIn">
+					</a>
+				</ul>
+			</nav>
+		</div>
+		<div class = "content">
+			<div class="blog">
+			<div class = "left-content">
+				<h1 class = "Title">Battleship Game</h1>
+				<h3 class = "Date">July 31st, 2023</h3>
+				<p> I coded from scratch a Battleship Game using C++. The purpose of the game was to build on the
+                    knowledge I had learned in my Computer Systems Class and advance it into a game that I like. The game
+                    itself is Player vs. Computer and is based on the popular board game. 
+					<br>
+					<br>
+					I had two main issues with the game, mostly surrounding the computer side. The first issue was generating
+                    a board for the computer to play with that fit the rules of the game. There were so many places ships could
+                    not go and I had to create algorithms that simiplified these rules and shortened my code. 
+                    <br>
+					<br>
+                    The second issue was creating an algorithm that made the computer not terrible at the game. My initial algorithm 
+                    was complete randomness. After some research, I am developing a new algorithm. If the computer hits a ship, it stores 
+                    the points around the coordinate in a list. Then on the next turn it checks those coordinates. It keeps going like this. 
+                    This will help the computer be a little smarter with its moves, but not enough where it could beat the player.
+                    I am currently researching other algorithms that would help improve the computer's performance.
+				</p>
+			</div>
+			<div class = "right-content">
+				<video width = "80%" controls = "controls">
+					<source  src = "Images/ProjectsPage/battleship-game-video.mov">
+				</video>
+			</div>
+		</div>
+		<div class = "other-projects">
+            <a class = "other-projects-previous" href="">
+				<!-- <img class = "other-projects-img" src="Images/ProjectsPage/project-led-cube-cover.jpg"> -->
+			</a>
+			<a class = "other-projects-next" href="robotic-car.html">
+				<p>NEXT -></p>
+				<!-- <img class = "other-projects-img" src="Images/ProjectsPage/project-led-cube-cover.jpg"> -->
+			</a>
+		</div>
+	</div>
+	</body>
+</html>
+		
