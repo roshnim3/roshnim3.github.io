@@ -34,9 +34,6 @@ to { width: 100% }
 body {
   font-family: 'Inter', sans-serif;
 }
-#linkedin-logo {
-  height: 20px;
-}
 #RM-logo {
   height: 50px;
 }
@@ -195,3 +192,37 @@ p {
 .other-projects img{
   height: 10vh;
 }
+
+/* CONTACT ME */
+.contact-me {
+  background-color: rgb(9, 38, 63);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  align-content: center;
+}
+#contact-text {
+  size: 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+.contact-points {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.contact-points img {
+  height: 20px;
+  
+}
+.contact {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+  align-items: center;
+  font-size: 20px;
+}
+
