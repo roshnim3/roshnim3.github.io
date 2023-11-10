@@ -68,3 +68,10 @@ nav {
 .spacer {
   height: 10vh;
   
+/* BLOG */
+.title {
+  text-align: center;
+}
+.blog {
+  padding: 10vw;
+}
