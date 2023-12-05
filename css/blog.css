@@ -67,11 +67,25 @@ nav {
 /* SPACER */
 .spacer {
   height: 10vh;
-  
+}
+
 /* BLOG */
-.blog {
-  text-align:center;
+  /* SPACER */
+  .spacer {
+    height: 10vh;
+  }
+  
+  /* PROJECTS */
+
+
+.blog-post {
+  border-style: solid;
+  border-color: black;
+  padding: 2.5%;
+  margin: 10%;
 }
-.content {
-  margin: 10vw;
+
+.blog-title {
+  text-align: center;
 }
+
