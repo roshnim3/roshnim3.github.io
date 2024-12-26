@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=/" />
     <script>
-      window.location.href = "/";
+      // Preserve the URL path after redirection
+      var currentPath = window.location.pathname;
+      var redirectUrl = '/'; // Root path where React takes over
+
+      // Redirect to the root while appending the current path
+      window.location.replace(redirectUrl + '#' + currentPath);
     </script>
   </head>
   <body>
-    <p>If you are not redirected automatically, follow this <a href="/">link</a>.</p>
+    <p>Redirecting...</p>
   </body>
 </html>
