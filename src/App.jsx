@@ -66,7 +66,7 @@ function App() {
             <SingleProjectPage
               title="Operating System Design"
               description={osDescription}
-              media={{ type: 'video', src: '../src/assets/projects/OS-demo.mov' }}
+              media={{ type: 'video', src: '/assets/projects/OS-demo.mov' }}
               resources={[]}
             />
           }

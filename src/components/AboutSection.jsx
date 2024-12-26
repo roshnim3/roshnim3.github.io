@@ -23,22 +23,22 @@ function AboutSection() {
         <div className="about-carousel">
           <Slider {...settings}>
           <div>
-              <img src="../src/assets/aboutme/me.jpg" alt="Me" className="carousel-image" />
+              <img src="/assets/aboutme/me.jpg" alt="Me" className="carousel-image" />
             </div>
             <div>
-              <img src="../src/assets/aboutme/hdcl-group.jpg" alt="HDCL Research Group" className="carousel-image" />
+              <img src="/assets/aboutme/hdcl-group.jpg" alt="HDCL Research Group" className="carousel-image" />
             </div>
             <div>
-              <img src="../src/assets/aboutme/eoh-2023.JPEG" alt="EOH Committee 2023" className="carousel-image" />
+              <img src="/assets/aboutme/eoh-2023.JPEG" alt="EOH Committee 2023" className="carousel-image" />
             </div>
             <div>
-              <img src="../src/assets/aboutme/OTCR-women.JPG" alt="OTCR Women in the Firm" className="carousel-image" />
+              <img src="/assets/aboutme/OTCR-women.JPG" alt="OTCR Women in the Firm" className="carousel-image" />
             </div>
             <div>
-              <img src="../src/assets/aboutme/OTCR.jpg" alt="OTCR" className="carousel-image" />
+              <img src="/assets/aboutme/OTCR.jpg" alt="OTCR" className="carousel-image" />
             </div>
             <div>
-              <img src="../src/assets/aboutme/research-presentation.jpg" alt="OTCR" className="carousel-image" />
+              <img src="/assets/aboutme/research-presentation.jpg" alt="OTCR" className="carousel-image" />
             </div>
           </Slider>
         </div>
