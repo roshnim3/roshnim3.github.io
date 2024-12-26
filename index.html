@@ -1,123 +1,21 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Roshni Mathew</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-	</head>
-	<body>
-	<div class="welcome">
-		<nav class="nav-bar">
-			<a href="https://roshnim3.github.io">
-				<img id = "RM-logo" src="Images/NavBar/main-logo.png" alt="Link to Home Page">
-			</a>
-			<ul class="nav-list">
-				<a class = "nav-item"href="https://roshnim3.github.io/index.html">HOME</a>
-				<a class = "nav-item" href="https://roshnim3.github.io/projects.html">PROJECTS</a>
-				<a class = "nav-item" href="https://roshnim3.github.io/resume.pdf">RESUME</a>
-				<a class = "nav-item" href="https://roshnim3.github.io/blog.html">BLOG</a>
-			</ul>
-		</nav>
-
-		<h1 class = "text">hi, i'm roshni!</h1>
-	</div>
-
-	<div class = "spacer"></div>
-
-	<div class="aboutme">
-		<div class="aboutme-left">
-			<img class="aboutme-headshot" src="Images/AboutSection/Headshot.png" alt="Headshot">
-		</div>
-		
-		<div class="aboutme-right">
-			<div class = "aboutme-text">
-				<h1>about me</h2>
-				<p>I'm a sophomore majoring in computer engineering. I'm passionate about exploring 
-					software and hardware projects whether through my research, clubs, or just in 
-					my spare time. 
-					<br>
-					<br>
-					Last summer, I had the incredible opportunity to study abroad in Japan 
-					to learn about Japanese culture and enhance my langauge skills. I also was able to explore web programming, 
-					UX design, and HTML/CSS, which has led to the creation of this website. 
-					<br>
-					<br>
-					When I'm not immersed in tech, you'll often find me crocheting or learning some new hobby. 
-				</p>
-			</div>
-		 	
-		</div>
-	</div>
-
-	<div class = "spacer"></div>
-
-	<div class = "myexperiences">
-		<h1>my experiences</h1>
-		<div class="timeline">
-			<div class="timeline-left">
-				<img class = "timeline-activity"src="Images/ExperienceSection/experience-otcr-img.png">
-				<div class = "work-experience">
-					<h3>Research Assistant</h3>
-					<p>I spearheaded the creation of an app to control a robotic arm task trainer, integrating Arduino, HC-05 Bluetooth module, 
-					and Android Studio to establish seamless wireless connectivity.</p>
-				</div>
-				<img class = "timeline-activity" src="Images/ExperienceSection/experience-eoh-img.png">
-				<div class = "work-experience">
-					<h3 >Research Assistant</h3>
-					<p>Built a network file system for access to server files within the cluster environment. Created a 
-						dynamic IP address assignment protocol to enable communication among Jetson Nanos.</p>
-				</div>
-			</div>
-			<div class = "timeline-center">
-				<div class = "timeline-line">
-					<div class = "timeline-dot"></div>
-					<div class = "timeline-spacer"></div>
-					<div class = "timeline-dot"></div>
-					<div class = "timeline-spacer"></div>
-					<div class = "timeline-dot"></div>
-					<div class = "timeline-spacer"></div>
-					<div class = "timeline-dot"></div>
-				</div>
-			</div>
-			<div class="timeline-right">
-				<div class = "work-experience">
-					<h3>Internal Project Manager, Lead Consultant</h3>
-					<p> Generated a pricing strategy for a med-tech startup, optimizing product positioning.
-						Devised a comprehensive recruitment plan for a University of Illinois 
-						school.</p>
-				</div>
-				<p></p>
-				<img class = "timeline-activity" src="Images/ExperienceSection/experience-hdcl-img.png">
-				<div class = "work-experience">
-					<h3 >Director of Advancements</h3>
-					<p>Established a partnership with the Advancements Office and collaborated with 15+ departments to plan alumni-focused events, fostering stronger university connections</p>
-				</div>
-				<img class = "timeline-activity" src="Images/ExperienceSection/experience-ssl-img.jpeg">
-			</div>
-		</div>
-	</div>
-	<div class="contact-me">
-		<h1 id="contact-text">Contact Me</h1>
-		<div class="contact-points">
-			<div class="contact">
-				<h5>
-					<img src="Images/HomePage/phone-logo.png" alt="Phone Number">
-					  :  (312) 802-7878</h5>
-			</div>
-
-			<div class="contact">
-				<h5>
-					<img src="Images/HomePage/mail-logo.png" alt="Email">
-					  :  roshnimathew04@gmail.com</h5>
-			</div>
-			
-			<div class = "contact" href="https://www.linkedin.com/in/roshnimathew04/">
-				<h5>
-					<img id="linkedin-logo" src="Images/HomePage/linkedin-logo.png" alt="LinkedIn">
-					  :  roshnimathew04</h5>
-			</div>
-		</div>
-		
-	</div>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roshni Mathew</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+  <svg style="position: absolute; width: 0; height: 0;">
+  <filter id="wave">
+    <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="warp" />
+    <feDisplacementMap in="SourceGraphic" in2="warp" scale="10" />
+  </filter>
+</svg>
 </html>
+

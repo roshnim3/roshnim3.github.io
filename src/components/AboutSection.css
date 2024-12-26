@@ -1,0 +1,66 @@
+/* About Section Styling */
+.about-section {
+    background-color: #E9E4EA;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  /* Carousel Styles */
+  .about-carousel {
+    width: 40%; /* Carousel width */
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: auto; /* Allow dynamic width based on image dimensions */
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: contain; /* Ensure the image fits within the space without cropping */
+    margin: 0 auto; /* Center the image within its container */
+    border-radius: 10px; /* Optional for rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  /* Bio Section */
+  .about-content {
+    width: 55%;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-carousel {
+      width: 100%;
+    }
+  
+    .about-content {
+      width: 100%;
+    }
+  }
+  

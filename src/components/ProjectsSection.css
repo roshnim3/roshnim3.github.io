@@ -1,0 +1,79 @@
+/* Projects Section Styling */
+.projects-section {
+    background-color: #E9E4EA;
+    padding: 50px 80px;
+    text-align: center;
+  }
+  
+  .projects-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Itim', sans-serif;
+    color: #412131;
+  }
+  
+  /* Projects Grid */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 50px; /* Space between cards */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Project Card */
+  .project-card {
+    overflow: hidden; /* Ensure the content stays within the card */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Project Image Container */
+  .project-image-container {
+    position: relative;
+  }
+  
+  .project-image {
+    width: 100%;
+    object-fit: cover; /* Ensure the image covers the area */
+    display: block;
+  }
+  
+  /* Hover Overlay */
+  .project-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .project-card:hover .project-hover-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .project-name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Padding for Bottom Section */
+  .project-card {
+    padding-bottom: 20px;
+  }
+  

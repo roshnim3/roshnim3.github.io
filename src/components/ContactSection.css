@@ -1,0 +1,48 @@
+/* Contact Section Styling */
+.contact-section {
+    background-color: #412131; /* Dark background for contrast */
+    color: #fff;
+    padding: 10px 20px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ccc;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #4e9ef3; /* LinkedIn blue for hover effect */
+  }
+  
+  .contact-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  

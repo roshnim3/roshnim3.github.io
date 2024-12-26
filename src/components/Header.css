@@ -1,0 +1,65 @@
+/* Header Styling */
+.header {
+    position: absolute; /* Set the position to absolute so it overlays the background */
+    width: 100%;
+    background-color: transparent; /* Transparent background */
+    z-index: 10; /* Ensure it stays above the hero section */
+  }
+  
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: 'Itim', sans-serif;
+}
+  
+/* Logo Styling */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F9EDED;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+}
+  
+.nav-links li {
+    margin: 0;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+}
+
+.sections {
+    color: #F9EDED;
+}
+
+.sections:hover {
+    color: #c493ab;
+}
+
+
+/* Resume Button Styling */
+.resume-btn {
+    background-color: #F9EDED;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #A16384;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.resume-btn:hover {
+    background-color: #A16384;
+    color: #F9EDED;
+}
