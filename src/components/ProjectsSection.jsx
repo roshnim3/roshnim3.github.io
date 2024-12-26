@@ -4,7 +4,7 @@ import './ProjectsSection.css';
 
 function ProjectsSection() {
   const projects = [
-    { name: 'FPGA', image: '../src/assets/projects/FPGA.png', color: '#212F56', link: '/fpga-project' }, 
+    { name: 'FPGA', image: './assets/projects/FPGA.png', color: '#212F56', link: '/fpga-project' }, 
     { name: 'Computer Graphics', image: '../src/assets/projects/Graphics.png', color: '#C4899F', link: '/graphics-project' }, 
     { name: 'Operating Systems', image: '../src/assets/projects/OS.png', color: '#80B7BD', link: '/os-project' }, 
     { name: 'Circuitry', image: '../src/assets/projects/Circuitry.png', color: '#994F6C', link: '/circuitry-project' }, 

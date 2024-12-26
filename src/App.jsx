@@ -39,6 +39,12 @@ function App() {
               <section id="home">
                 <HeroSection />
               </section>
+              <section id="about">
+                <AboutSection />
+              </section>
+              <section id="statistics">
+                <StatisticsSection />
+              </section>
               <section id="projects">
                 <ProjectsSection />
               </section>
