@@ -1,146 +1,201 @@
 /* Experience Section Styling */
 .experience-section {
-    background-color: #E9E4EA;
-    padding: 50px 20px;
-  }
-  
-  .experience-title {
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Itim', sans-serif;
-    color: #412131;
-  }
-  
-  
-  /* Timeline */
-  .timeline {
-    position: relative;
-    max-width: 80vw;
-    margin: 0 auto;
-  }
-  
+  background-color: #E9E4EA;
+  padding: 50px 20px;
+}
+
+.experience-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Itim', sans-serif;
+  color: #412131;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 8px;
+  background-color: #412131;
+  z-index: 1;
+  border-radius: 6px;
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.timeline-content {
+  width: 40%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px #994F6C;
+  z-index: 2;
+}
+
+.timeline-content.left-content {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.timeline-content.right-content {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.logo-container {
+  display: flex;
+  width: 44%;
+  align-items: center;
+}
+
+.left-logo {
+  justify-content: flex-end;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+/* Text Styling */
+.company {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  font-style: italic;
+  color: #412131;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #994F6C;
+}
+
+.duration {
+  font-size: 1.2rem;
+  color: #C4899F;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Timeline Dot */
+.timeline-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background-color: #994F6C;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Remove Timeline */
   .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    height: 100%;
-    width: 8px;
-    background-color: #412131;
-    z-index: 1;
-    border-radius: 6px; /* Half of the line width for a fully rounded edge */
+    display: none; /* Hide the central timeline line */
   }
-  
-  
-  /* Timeline Item */
-  
+
+  /* Stack Cards */
   .timeline-item {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    margin-bottom: 30px; /* Add spacing between stacked cards */
   }
-  
+
   .timeline-content {
-    width: 40%; /* Adjust to ensure space for logo and timeline */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px #994F6C;
-    z-index: 2;
-  }
-  
-  .timeline-content.left-content {
-    text-align: right;
-    margin-right: 10px; /* Space from the timeline */
-  }
-  
-  .timeline-content.right-content {
-    text-align: left;
-    margin-left: 10px; /* Space from the timeline */
+    width: 90%; /* Full width for cards */
+    text-align: center;
+    margin: 20px 0; /* Add spacing around cards */
   }
 
   .logo-container {
-    display: flex;
-    width: 44%;
-    align-items: center; /* Center logos vertically */
+    margin-bottom: 15px; /* Add spacing for logos */
   }
-  .left-logo {
-    justify-content: flex-end;
-  }
-  
+
   .company-logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+    display: none;
   }
-  
-  /* Text Styling */
+
   .company {
-    font-size: 1.6rem;
-    line-height: 0.5rem;
-    font-style: italic;
-    color: #412131;
+    font-size: 1.4rem;
   }
-  
+
   .title {
-    font-size: 1.5rem;
-    line-height: 0.5rem;
-    font-weight: bold;
-    margin: 5px 0;
-    color: #994F6C;
+    font-size: 1.3rem;
   }
-  
+
   .duration {
-    font-size: 1.2rem;
-    color: #C4899F;
-    margin-bottom: 10px;
-  }
-  
-  .description {
     font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
   }
-  
-  /* Timeline Dot */
+
+  .description {
+    font-size: 0.9rem;
+  }
+
   .timeline-dot {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30px;
-    height: 30px;
-    background-color: #994F6C;
-    border-radius: 50%;
-    z-index: 3;
+    display: none; /* Remove timeline dots for smaller devices */
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .timeline {
-      max-width: 90%;
-    }
-  
-    .timeline-item {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .timeline-content {
-      width: 90%;
-      text-align: center;
-    }
-  
-    .logo-container {
-      margin-top: 20px;
-    }
-  
-    .timeline-dot {
-      left: 10%;
-    }
+}
+
+@media (max-width: 480px) {
+  .experience-title {
+    font-size: 3rem;
   }
-  
+
+  .timeline-content {
+    width: 100%;
+  }
+
+  .timeline-dot {
+    display: none; /* Remove timeline dots for smaller devices */
+  }
+
+  .company-logo {
+    display: none;
+  }
+
+  .company {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .duration {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+}

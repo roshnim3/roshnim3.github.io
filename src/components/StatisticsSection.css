@@ -45,9 +45,43 @@
   font-family: 'Itim', sans-serif;
 }
 
+/* Mobile-Friendly Adjustments */
 @media (max-width: 768px) {
+  .statistics-container {
+    gap: 20px; /* Reduce the gap between cards */
+  }
+
   .stat-card {
-    width: 120px;
+    width: 150px; /* Reduce the size of cards */
+    height: 150px;
+    font-size: 0.9rem;
+  }
+
+  .stat-value {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .stat-label {
+    font-size: 1.5rem; /* Adjust label font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .statistics-container {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 120px; /* Further reduce size for very small screens */
     height: 120px;
+  }
+
+  .stat-value {
+    font-size: 1.8rem; /* Smaller font size for values */
+  }
+
+  .stat-label {
+    font-size: 1.2rem; /* Smaller font size for labels */
   }
 }

@@ -11,7 +11,7 @@ function ExperienceSection() {
       logo: '/assets/experiences/engineering-council.jpeg',
     },
     {
-      title: 'ENG 100 ELA (Engineering Learning Assistant)',
+      title: 'ENG 100 ELA',
       company: 'Grainger College of Engineering',
       duration: 'Aug 2024 - December 2024',
       description: 'Taught a twice-weekly class of 20 ECE students, prepared content on navigating college as a freshman, graded assignments, and provided personalized guidance through 1:1 mentor meetings.',
