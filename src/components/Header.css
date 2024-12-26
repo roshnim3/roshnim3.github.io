@@ -1,65 +1,114 @@
 /* Header Styling */
 .header {
-    position: absolute; /* Set the position to absolute so it overlays the background */
+    position: absolute; /* Keep it overlaying the hero section */
     width: 100%;
     background-color: transparent; /* Transparent background */
     z-index: 10; /* Ensure it stays above the hero section */
   }
   
-/* Navbar Styling */
-.navbar {
+  /* Navbar Styling */
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     color: #fff;
     font-family: 'Itim', sans-serif;
-}
+  }
   
-/* Logo Styling */
-.logo {
+  /* Logo Styling */
+  .logo {
     font-size: 1.8rem;
     font-weight: bold;
     color: #F9EDED;
-}
-
-/* Navigation Links */
-.nav-links {
+  }
+  
+  /* Navigation Links */
+  .nav-links {
     list-style: none;
     display: flex;
     gap: 5vw;
-}
+  }
   
-.nav-links li {
+  .nav-links li {
     margin: 0;
-}
+  }
   
-.nav-links a {
+  .nav-links a {
     text-decoration: none;
     font-size: 1.8rem;
     transition: color 0.3s;
-}
-
-.sections {
+  }
+  
+  .sections {
     color: #F9EDED;
-}
-
-.sections:hover {
+  }
+  
+  .sections:hover {
     color: #c493ab;
-}
-
-
-/* Resume Button Styling */
-.resume-btn {
+  }
+  
+  /* Resume Button Styling */
+  .resume-btn {
     background-color: #F9EDED;
     padding: 8px 15px;
     border-radius: 5px;
     color: #A16384;
     font-weight: bold;
     text-decoration: none;
-}
+  }
   
-.resume-btn:hover {
+  .resume-btn:hover {
     background-color: #A16384;
     color: #F9EDED;
-}
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+      padding: 15px 20px; /* Adjust padding */
+    }
+  
+    .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      gap: 15px; /* Add spacing between links */
+      margin-top: 10px;
+      width: 100%; /* Full width for better alignment */
+      align-items: flex-start;
+    }
+  
+    .nav-links a {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  
+    .resume-btn {
+      padding: 10px 20px; /* Increase button padding for better tapability */
+      font-size: 1.6rem; /* Adjust font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.6rem; /* Further reduce logo size */
+    }
+  
+    .navbar {
+      padding: 10px 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .nav-links {
+      gap: 10px; /* Reduce spacing for smaller devices */
+    }
+  
+    .nav-links a {
+      font-size: 1.3rem; /* Further reduce font size */
+    }
+  
+    .resume-btn {
+      font-size: 1.4rem; /* Reduce button font size */
+      padding: 8px 15px; /* Adjust padding */
+    }
+  }
+  
