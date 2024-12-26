@@ -23,7 +23,7 @@ function AboutSection() {
         <div className="about-carousel">
           <Slider {...settings}>
           <div>
-              <img src="/assets/aboutme/me.jpg" alt="Me" className="carousel-image" />
+              <img src="/assets/aboutme/me.JPG" alt="Me" className="carousel-image" />
             </div>
             <div>
               <img src="/assets/aboutme/hdcl-group.jpg" alt="HDCL Research Group" className="carousel-image" />
