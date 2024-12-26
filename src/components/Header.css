@@ -21,6 +21,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     color: #F9EDED;
+    text-decoration: none;
   }
   
   /* Navigation Links */
@@ -65,28 +66,10 @@
   
   /* Responsive Design */
   @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column; /* Stack items vertically */
-      align-items: flex-start; /* Align items to the left */
-      padding: 15px 20px; /* Adjust padding */
-    }
-  
-    .nav-links {
-      flex-direction: column; /* Stack links vertically */
-      gap: 15px; /* Add spacing between links */
-      margin-top: 10px;
-      width: 100%; /* Full width for better alignment */
-      align-items: flex-start;
-    }
-  
     .nav-links a {
-      font-size: 1.5rem; /* Adjust font size for smaller screens */
+      display: none;
     }
-  
-    .resume-btn {
-      padding: 10px 20px; /* Increase button padding for better tapability */
-      font-size: 1.6rem; /* Adjust font size */
-    }
+
   }
   
   @media (max-width: 480px) {
@@ -103,7 +86,7 @@
     }
   
     .nav-links a {
-      font-size: 1.3rem; /* Further reduce font size */
+      display: none;
     }
   
     .resume-btn {

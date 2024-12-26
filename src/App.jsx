@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
@@ -8,7 +8,7 @@ import ExperienceSection from './components/ExperienceSection';
 import ResearchSection from './components/ResearchSection';
 import ContactSection from './components/ContactSection';
 import SingleProjectPage from './components/SingleProjectPage';
-import ScrollToHash from './components/ScrollToHash'; // Adjust the import path as needed
+import ScrollToHash from './components/ScrollToHash';
 
 function App() {
   const osDescription = `

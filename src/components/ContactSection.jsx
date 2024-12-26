@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactSection.css';
-import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 
 function ContactSection() {
   return (
@@ -21,9 +21,9 @@ function ContactSection() {
           <FaEnvelope className="contact-icon" />
           <span>Email</span>
         </a>
-        <a href="tel:+3128027878" className="contact-link">
-          <FaPhone className="contact-icon" />
-          <span>Phone</span>
+        <a href="/assets/roshnimathew-resume.pdf" className="contact-link">
+          <FaFilePdf className="contact-icon" />
+          <span>Resume</span>
         </a>
       </div>
     </section>
