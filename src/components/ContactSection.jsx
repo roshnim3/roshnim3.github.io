@@ -5,7 +5,6 @@ import { FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 function ContactSection() {
   return (
     <section className="contact-section">
-      <h2 className="section-title">Contact</h2>
       <p className="contact-description">Feel free to reach out to me via any of the platforms below:</p>
       <div className="contact-links">
         <a

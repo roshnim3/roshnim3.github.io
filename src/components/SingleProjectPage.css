@@ -1,6 +1,6 @@
 /* Single Project Page Styling */
 .header-background {
-  background-image: url('../assets/backgrounds/final-background.png');
+  background-image: url('/assets/backgrounds/final-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,6 +26,18 @@
   flex-wrap: wrap;
 }
 
+.webgl-container {
+  width: 100%;
+  max-width: 600px; /* Set a maximum width for the canvas */
+  margin: 0 auto; /* Center the canvas horizontally */
+}
+
+.webgl-container canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Left Section: Details */
 .project-details {
   flex: 1;
@@ -43,6 +55,7 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #555;
+  overflow: auto;
 }
 
 /* Right Section: Media and Resources */
@@ -68,6 +81,23 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.project-gallery {
+  width: 100%;
+  max-width: 600px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-image,
+.gallery-video {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
 .additional-resources h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
@@ -76,6 +106,7 @@
 
 .additional-resources ul {
   list-style: none;
+  font-size: 1.4rem;
   padding: 0;
 }
 
@@ -85,7 +116,7 @@
 
 .additional-resources a {
   text-decoration: none;
-  color: #007bff;
+  color: #C4899F;
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -96,6 +127,50 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .header-background {
+    height: 100px; /* Reduce header height */
+  }
+
+  .project-container {
+    flex-direction: column;
+    gap: 20px; /* Reduce spacing for smaller screens */
+    align-items: stretch; /* Ensure full-width alignment */
+    overflow: wrap;
+  }
+
+  .project-title {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  .project-description {
+    font-size: 1rem; /* Reduce font size for readability */
+  }
+
+  .project-media {
+    text-align: center;
+  }
+
+  .project-image,
+  .project-video,
+  .project-gallery{
+    margin: 0 auto 20px;
+    width: 90%; /* Reduce image/video width for smaller screens */
+  }
+
+  .additional-resources h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .additional-resources a {
+    font-size: 1rem; /* Adjust link font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-background {
+    height: 100px; /* Reduce header height */
+  }
+
   .project-container {
     flex-direction: column;
     gap: 20px; /* Reduce spacing for smaller screens */
@@ -115,7 +190,8 @@
   }
 
   .project-image,
-  .project-video {
+  .project-video,
+  .project-gallery{
     margin: 0 auto 20px;
     width: 90%; /* Reduce image/video width for smaller screens */
   }
@@ -126,38 +202,5 @@
 
   .additional-resources a {
     font-size: 1rem; /* Adjust link font size */
-  }
-}
-
-@media (max-width: 480px) {
-  .header-background {
-    height: 100px; /* Reduce header height */
-  }
-
-  .project-title {
-    font-size: 1.8rem; /* Further reduce font size */
-  }
-
-  .project-description {
-    font-size: 0.9rem; /* Reduce description size */
-  }
-
-  .project-container {
-    padding: 20px 10px; /* Further reduce padding for small devices */
-    gap: 10px;
-  }
-
-  .project-image,
-  .project-video {
-    width: 100%; /* Use full width on very small screens */
-    border-radius: 5px; /* Slightly smaller border radius */
-  }
-
-  .additional-resources h2 {
-    font-size: 1.3rem;
-  }
-
-  .additional-resources a {
-    font-size: 0.9rem;
   }
 }

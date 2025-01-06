@@ -4,11 +4,11 @@ import './ProjectsSection.css';
 
 function ProjectsSection() {
   const projects = [
-    { name: 'FPGA', image: '/assets/projects/FPGA.png', color: '#212F56', link: '/fpga-project' }, 
-    { name: 'Computer Graphics', image: '/assets/projects/Graphics.png', color: '#C4899F', link: '/graphics-project' }, 
+    { name: 'FPGA', image: '/assets/projects/fpga/FPGA.png', color: '#212F56', link: '/fpga-projects' }, 
+    { name: 'Computer Graphics', image: '/assets/projects/Graphics.png', color: '#C4899F', link: '/graphics-projects' }, 
     { name: 'Operating Systems', image: '/assets/projects/OS.png', color: '#80B7BD', link: '/os-project' }, 
-    { name: 'Circuitry', image: '/assets/projects/Circuitry.png', color: '#994F6C', link: '/circuitry-project' }, 
-    { name: 'Software', image: '/assets/projects/Software.png', color: '#48718B', link: '/software-project' }, 
+    { name: 'Circuitry', image: '/assets/projects/circuitry/Circuitry.png', color: '#994F6C', link: '/circuitry-projects' }, 
+    // { name: 'Software', image: '/assets/projects/Software.png', color: '#48718B', link: '/software-projects' }, 
   ];
 
   return (

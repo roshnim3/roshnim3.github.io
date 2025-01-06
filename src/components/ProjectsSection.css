@@ -26,7 +26,7 @@
 .project-card {
   overflow: hidden; /* Ensure the content stays within the card */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+  /* background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb); */
   transition: transform 0.3s ease-in-out;
   position: relative;
   padding-bottom: 20px;

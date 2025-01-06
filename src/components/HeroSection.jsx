@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="hero-content">
         
         <img
-          src="/assets/profile.jpg" /* Replace with your profile image path */
+          src="/assets/profile.png" /* Replace with your profile image path */
           alt="Profile"
           className="profile-image"
         />
